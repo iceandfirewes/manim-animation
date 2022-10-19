@@ -34,11 +34,5 @@ class TriangleArea(Scene):
         #add divider and 2 symbol
         ldivider = Line(leftBracket.get_center(), rightBracket.get_center()).move_to(formulaPlane + [0,-0.5,0])
         self.play(Create(ldivider), Write(Text("2",font_size=30).move_to(ldivider.get_center() + [0,-.5,0])))
-
-
-
-
-
-
-
-
+#Citation
+# The Manim Community Developers. (2022). Manim – Mathematical Animation Framework (Version v0.16.0) [Computer software]. https://www.manim.community/
